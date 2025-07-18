@@ -65,3 +65,11 @@ SchoolStack is a desktop-based school administration tool that enables basic CRU
 | - section           |  | - salary          |
 | - roll_number (PK)  |  | - emp_code (PK)   |
 +---------------------+  +-------------------+
+
+
+### Features to add:
+- Get in-detailed information student/employee using LLM API
+- Use Natural language to add_student/add_employee using NL2SQL model(hugging face)
+- Update information about any person
+- automatic schedule parent meeting if student perform lesser than average
+- send fee remainder main, if fee is due
