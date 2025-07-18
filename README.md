@@ -1,10 +1,10 @@
-# 🎓 SchoolStack – A School Management System
+# SchoolStack – A School Management System
 
 > A Python-based school management platform built with **LLD principles**, **Tkinter GUI**, and **SQLite backend**, designed to manage students and employees efficiently. This project is also a base for experimenting with **LLM/ML integration** in the future.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 SchoolStack is a desktop-based school administration tool that enables basic CRUD operations (Create, Read, Update, Delete) for managing student and teacher data. It follows solid **Object-Oriented Design**, encapsulating entities such as `Person`, `Student`, and `Employee`. Data is persistently stored using **SQLite**, and the GUI is built with **Tkinter**.
 
@@ -14,16 +14,16 @@ SchoolStack is a desktop-based school administration tool that enables basic CRU
 
 | Layer         | Technology        | Purpose                          |
 |---------------|-------------------|----------------------------------|
-| 🧱 Core Logic | Python OOP        | LLD & Object-Oriented Design     |
-| 🎨 GUI        | Tkinter           | User Interface for operations    |
-| 🗃 Database    | SQLite3           | Lightweight persistent storage   |
-| 📦 Packaging  | `uv`, `venv`      | Python project management        |
-| 🤖 (Planned)  | OpenAI / LLM APIs | Smart assistant & automation     |
-| 📈 (Planned)  | Scikit-learn / XGBoost | ML models for analytics       |
+| Core Logic | Python OOP        | LLD & Object-Oriented Design     |
+| GUI        | Tkinter           | User Interface for operations    |
+| Database    | SQLite3           | Lightweight persistent storage   |
+| Packaging  | `uv`, `venv`      | Python project management        |
+| (Planned)  | OpenAI / LLM APIs | Smart assistant & automation     |
+| (Planned)  | Scikit-learn / XGBoost | ML models for analytics       |
 
 ---
 
-## 📚 Key Features
+## Key Features
 
 - Add/Edit/Delete/View **Student** records
 - Add/Edit/Delete/View **Teacher** records
@@ -35,7 +35,7 @@ SchoolStack is a desktop-based school administration tool that enables basic CRU
 
 ---
 
-## 👨‍💻 Skills Demonstrated
+## Skills Demonstrated
 
 - 🔸 Low-Level Design (LLD)
 - 🔸 Object-Oriented Programming (OOP)
@@ -46,7 +46,7 @@ SchoolStack is a desktop-based school administration tool that enables basic CRU
 
 ---
 
-## 🧩 System Structure (LLD)
+##  System Structure (LLD)
 
 ```text
 +---------------------+
@@ -65,9 +65,9 @@ SchoolStack is a desktop-based school administration tool that enables basic CRU
 | - section           |  | - salary          |
 | - roll_number (PK)  |  | - emp_code (PK)   |
 +---------------------+  +-------------------+
+```
 
-
-### Features to add:
+## Features to add:
 - Get in-detailed information student/employee using LLM API
 - Use Natural language to add_student/add_employee using NL2SQL model(hugging face)
 - Update information about any person
