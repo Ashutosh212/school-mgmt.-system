@@ -1,0 +1,11 @@
+What is?
+1. serialization (to_dict)
+2. command parsing
+
+
+✅ Fee Management	Fee collection, dues, receipts, automatic messaging
+"Auto-schedule parent meetings"	Calendar automation
+Student Clustering	Group students based on marks, attendance, behavior
+Recommendation System	Suggest study material based on weak areas
+Natural Language Interface	Let users say: “Add student John with 85 in maths” → form fills automatically
+Assignment Feedback	Upload student answers → generate comments
